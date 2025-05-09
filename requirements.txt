@@ -1,0 +1,15 @@
+pandas==2.2.3
+numpy==1.26.4
+nltk==3.9.1
+matplotlib==3.10.3
+seaborn==0.13.2
+scikit-learn==1.6.1
+gensim==4.3.3
+tensorflow==2.19.0
+tf_keras==2.19.0
+transformers==4.51.3
+torch==2.7.0
+datasets==3.4.1
+evaluate==0.4.3
+accelerate==1.6.0
+sentencepiece==0.2.0
