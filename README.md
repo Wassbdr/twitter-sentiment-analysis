@@ -30,12 +30,15 @@ Best single model: **DistilBERT** at F1 = 0.79
 ```bash
 pip install -r requirements.txt
 
-# 1. Run the data pipeline + GPT-2 generation (in notebook)
+# 1. Run the full pipeline in the notebook (data loading, model training, benchmarks)
+#    This generates the fine-tuned GPT-2 model saved to ./tweet-model/
 jupyter notebook src/data.ipynb
 
-# 2. Launch Streamlit dashboard
+# 2. Launch Streamlit dashboard (requires ./tweet-model/ from step 1)
 streamlit run src/app.py
 ```
+
+> The Streamlit app loads a fine-tuned GPT-2 model from `./tweet-model/`. Run the notebook first to generate it.
 
 ## Project Structure
 
